@@ -37,7 +37,7 @@ Navigate to the source folder. `cd catkin_ws/src`
 
 Clone the pgm_map_creator github repository. `https://github.com/udacity/pgm_map_creator.git` (Refer to the README file in the repository on how to create the map, essentially copy the world file from the above cloned *where_am_I_robot_localization/my_robot/world* folder into the world folder of pgm repo and create the map following the instrucation in the README file of pgm repo)
 
-Note: If you create your own world, you might need to edit in the request_publisher.launch file arg values (xmin, xmax, ymin, ymax) to ensure that the map encompasses the world fully. 
+_Note: If you create your own world, you might need to edit in the request_publisher.launch file arg values (xmin, xmax, ymin, ymax) to ensure that the map encompasses the world fully._
 
 Create a maps folder within the my_robot folder. Navigate into myrobot and run command `mkdir maps`.
 
@@ -52,7 +52,7 @@ occupied_thresh: 0.65
 free_thresh: 0.196
 negate: 0
 ```
-Note: The origin needs to be changed if you modify the request_publisher.launch file
+_Note: The origin needs to be changed if you modify the request_publisher.launch file_
 
 ## Running the localization ros package
 
